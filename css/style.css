@@ -1,121 +1,63 @@
+*{
+ margin: 0;
+ padding: 0
+}
+
 @font-face {
-	font-family: 'codeprobold';
-	src: url('../font/codeprobold.otf') format('otf')
-		 url('../font/codeprobold.ttf') format('ttf')
+	font-family: 'fontawesome_webfont';
+	src: url('../font/fontawesome-webfont.eot') format('eot')
+		 url('../font/fontawesome-webfont.ttf') format('ttf')
+		 url('../font/fontawesome-webfont.svg') format('svg')
+		 url('../font/fontawesome-webfont.woff') format('woff')
 }
 
 body
 {
-	font-family: codeprobold, Arial, sans-serif;
+	font-family: fontawesome_webfont, Arial, sans-serif;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+    margin: auto;
+    height: 100px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+li
+{
+    margin-right: 15px;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.nav:hover
+{
+	border-top: 2px blue solid;
 }
 
 /*div
 {
 	border: 3px black solid;
-
 }*/
 
-.form,.exp
+.nav
 {
 	display: flex;
-	justify-content: space-between;
-}
-
-.un,.deux,.trois,.quatre
-{
-	display: flex;
-	flex-direction: column;
-}
-
-.col2
-{
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-}
-
-.noir
-{
-	color: black;
-	font-size: 1.5em;
-}
-
-.border,.exp
-{
-	border-top: 6px #292929 solid;
-}
-
-h3
-{
-	color: #DE4343;
-	font-size: 1.2em;
-}
-
-span
-{
-	color: #DE4343;
-}
-
-.exp
-{
-	display: flex;
-	justify-content: space-between;
-}
-
-.form
-{
-	display: flex;
-	justify-content: space-between;
-}
-
-.col5
-{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-}
-
-.col1,.col2,.col3,.col4,.col5
-{
-	max-width: 300px;
-}
-
-h1
-{
-	font-size: 3em;
-}
-
-p
-{
-	font-size: 0.65em;
-}
-
-h3,.noir
-{
-	font-size: 1em;
-}
-
-.zero
-{
-	font-size: 1.1em;
-}
-
-li
-{
-	font-size: 0.7em;
-}
-
-li
-{
-	list-style-type: none;
-	list-style-position: inherit;
-}
-
-@media screen and (max-width: 600px)
-{
-	.form,.exp
-	{
-		display:flex;
-		flex-direction: column;
-	}
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	padding: 10px;
 }
