@@ -21,7 +21,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 1200px;
+	width: 100%;
     margin: auto;
     height: 100px;
 }
@@ -30,11 +30,16 @@ ul
 {
     list-style-type: none;
     display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 }
 
 li
 {
     margin-right: 15px;
+    border-top: 2px white solid;
+	height: 80px;
 }
 
 a
@@ -43,7 +48,7 @@ a
 	text-decoration: none;
 }
 
-.nav:hover
+li:hover
 {
 	border-top: 2px blue solid;
 }
@@ -52,12 +57,3 @@ a
 {
 	border: 3px black solid;
 }*/
-
-.nav
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 80px;
-	padding: 10px;
-}
