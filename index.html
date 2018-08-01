@@ -3,29 +3,63 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <title>WebAgency</title>
     </head>
     
     <body>
-        <div id="container">
-            <header>
-                <div id="logo">
-                    <img src="image/logo.png" alt="webagency_logo" />
-                </div>
-                <ul class="nav">
-                    <li><a href="#"/>Accueil</a></li>
-                    <li><a href="services.html"/>Services</a></li>
-                    <li><a href="#"/>Portfolio</a></li>
-                    <li><a href="#"/>Contact</a></li>
-                </ul>
-            </header>
+        <div class="page">
+            <div id="accueil">
+                <header id="haut_accueil">
+                    <div id="logo_accueil">
+                        <img src="image/logo.png" alt="webagency_logo" />
+                    </div>
+                    <ul class="nav">
+                        <li><a href="#" class="aspc" />Accueil</a></li>
+                        <li><a href="#service" class="aspc"/>Services</a></li>
+                        <li><a href="#" class="aspc"/>Portfolio</a></li>
+                        <li><a href="#" class="aspc"/>Contact</a></li>
+                    </ul>
+                </header>
 
-            <div id="slider">
-                <div id="inter_slide">
-                    <h1><span>WEBANGENCY</span>:L'AGENCE DE TOUS<br/>VOS PROJETS !</h1>
-                    <p>Vous avez un projet web ? La Webagency vous aide à le réaliser !</p>
-                    <p id="button"><a href="#" class="button"/>Plus d'infos</p>
+                <div id="slider">
+                    <div id="inter_slide">
+                        <h1 class="titre_accueil"><span>WEBANGENCY</span>:L'AGENCE DE TOUS<br/>VOS PROJETS !</h1>
+                        <p class="texte_accueil">Vous avez un projet web ? La Webagency vous aide à le réaliser !</p>
+                        <p id="button"><a href="#" class="button"/>Plus d'infos</p>
+                    </div>
                 </div>
+            </div>
+            <div id="services">
+                <header>
+                    <div id="haut_de_page">
+                        <h1 class="head" id="service">NOS SERVICES</h1>
+                        <img src="image/barre.png" alt="barre" class="head">
+                        <p class="head">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut<br/>enim ad minim veniam</p>
+                    </div>
+                </header>
+                <section>
+                    <div id="bas_de_page">
+                        <div class="image">
+                            <img src="image/main-feature.png" alt="site_auxiliaire">
+                        </div>
+                        <div class="liste">
+                            <div id="texte">
+                                <h2>UX design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>                    
+                                <h2>UI design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>
+                                <h2>SEO</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna incididunt ut labore aliqua.</p>
+                            </div>
+                            <div id="icones">
+                                <i class="fas fa-chart-line"></i>
+                                <i class="fas fa-cubes"></i>
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </body>
