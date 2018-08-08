@@ -3,6 +3,29 @@
  padding: 0;
 }
 
+
+.img-container
+{
+	width: 23%;
+}
+
+.img-container img
+{
+	width: 100%;
+}
+
+.image_portfolio--first-row, .image_portfolio--second-row
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.image_portfolio--second-row
+{
+	margin-top: 1rem;
+}
+
 @font-face {
 	font-family: 'fontawesome_webfont';
 	src: url('../font/fontawesome-webfont.eot') format('eot')
@@ -263,7 +286,7 @@ span
 	box-shadow: 0px 3px 0px rgb(68,148,187);
 }
 
-#image_portfolio
+/*#image_portfolio
 {
 	display: flex;
 	flex-direction: row;
@@ -271,7 +294,7 @@ span
 	justify-content: space-around;
 	align-content: center;
 	width: 90%;
-}
+}*/
 
 .test
 {
