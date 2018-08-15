@@ -20,6 +20,8 @@ a
 .soma-menu
 {
 	padding: 1rem;
+    position: relative;
+    
 }
 
 .soma-link
@@ -29,9 +31,15 @@ a
 
 .soma-menu:hover
 {
-	background-color: red;
+	background-color:rgb(92,173,211);
+    font-weight: bold;
+    box-shadow: 0px 2px 0px rgb(68,148,187);
 }
 
+.soma-menu:hover a
+{
+    color: white;
+}
 .soma-custom-border
 {
 	border-top-left-radius: 5px;
@@ -294,7 +302,7 @@ span
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	margin: 15px;
+	margin-bottom: 30px;
 	background-color: #dfdfdf80;
 	border-radius: 5px;
 }
@@ -329,11 +337,6 @@ span
 	width: 90%;
 }*/
 
-.test
-{
-	position: relative;
-}
-
 .dot 
 {
     height: 15px;
@@ -364,4 +367,23 @@ span
 #portfolio
 {
     background-color: #dfdfdf80;
+}
+
+.triangle 
+{
+    width: 0px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid rgb(68,148,187);
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -15px;
+    left: 42px;
+    opacity: 0;
+}
+
+.soma-menu:hover .triangle
+{
+    opacity: 1;
 }
