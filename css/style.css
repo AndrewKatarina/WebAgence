@@ -387,3 +387,29 @@ span
 {
     opacity: 1;
 }
+
+.test
+{
+    position: relative;
+}
+
+@media screen and (max-width: 1024px)
+{
+    /*#slider{
+        opacity: 0;
+    }*/
+    .nav{
+        flex-direction: column;
+        position: relative;
+        right: 421px;
+    }
+    #haut_accueil{
+        flex-direction: column;
+    }
+    .ascp{
+        border: 0px white solid;
+    }
+    .ascp:hover{
+        border: 0px white solid;
+    }
+}
