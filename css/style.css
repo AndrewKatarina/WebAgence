@@ -47,7 +47,7 @@ a
 }
 .img-container
 {
-	width: 60%;
+	width: 23%;
 }
 
 .img-container img
@@ -452,4 +452,9 @@ span
         flex-direction: column;
         width: 100%;
     }
+    
+    .img-container{
+	   width: 60%;
+    }
+    
 }
