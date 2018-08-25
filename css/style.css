@@ -47,7 +47,7 @@ a
 }
 .img-container
 {
-	width: 23%;
+	width: 60%;
 }
 
 .img-container img
@@ -441,21 +441,15 @@ span
         border: 0px white solid;
     }
     
-    .image_portfolio--first-row{
+    .image_portfolio--first-row, .image_portfolio--second-row{
 	   display: flex;
 	   flex-direction: column;
-    }
-    
-    .image_portfolio--second-row{
-        display: flex;
-        flex-direction: column;
+		align-items: center;
     }
     
     #image_portfolio{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
     }
 }
