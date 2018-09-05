@@ -156,6 +156,7 @@ body
 #image_slider
 {
     position: relative;
+    width: auto;
 }
 
 #inter_slide
@@ -166,6 +167,7 @@ body
 	font-weight: bold;
     left: 150px;
     bottom: 350px;
+    font-size: 1vw;
 }
 
 span
@@ -349,16 +351,6 @@ span
 	font-size: 1.7em;
 }
 
-.contact
-{
-    background-image: url('../image/map.png');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 550px;
-	width: 100%;
-	position: relative;
-}
-
 #portfolio
 {
     background-color: #dfdfdf80;
@@ -426,6 +418,63 @@ span
     color: #dfdfdf80;
 }
 
+#formulaire
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px #ffffff95 solid;
+    background-color: #ffffff95;
+    height: 400px;
+    width: 290px;
+    position: absolute;
+    left: 67%;
+    top: 260%;
+    padding: 10px;
+    line-height: 22px;
+    justify-content: space-between;
+}
+
+#map
+{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+}
+
+#color_map
+{
+    height: 807px;
+    width: 100%;
+    background-color: #4289f4;
+    position: relative;
+    opacity: 0.25;
+}
+
+#button_f
+{
+	background-color: rgb(92,173,211);
+	border-radius: 3px;
+	border: 1px rgb(92,173,211) solid;
+	box-shadow: 0px 3px 0px rgb(68,148,187);
+	width: 150px;
+	height: 45px;
+}
+
+.button_f
+{
+	color: white;
+	font-size: 1.1em;
+	position: absolute;
+	padding-left: 13px;
+	padding-top: 13px;
+	text-decoration: none;
+}
+
+input
+{
+    border-radius: 3;
+}
+
 @media screen and (max-width: 1024px)
 {
     /*#slider{
@@ -442,8 +491,8 @@ span
     }
     
     .image_portfolio--first-row, .image_portfolio--second-row{
-	   display: flex;
-	   flex-direction: column;
+	    display: flex;
+	    flex-direction: column;
 		align-items: center;
     }
     
@@ -454,7 +503,13 @@ span
     }
     
     .img-container{
-	   width: 60%;
+	    width: 60%;
     }
+    
+    #bas_de_page{
+	    display: flex;
+	    justify-content: space-around;
+        flex-direction: column;
+}
     
 }
